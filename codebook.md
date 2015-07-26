@@ -13,6 +13,7 @@ output: html_document
 * Then subsetting of data is done to get the data columns related to Mean and Standard Deviation only using a logical vector.
 * Then column names are corrected to make data more intuitive under the final data set.
 * In the end tidy data is produced for all the activities and subjects using the final data set.
+* The output tidy data set is a text file with tab as data separator.
 
 
 ## Output variables of the output tidy data set
@@ -53,3 +54,7 @@ output: html_document
 		        SITTING (activityTypeId=4)
 		        STANDING (activityTypeId=5)
 		        LAYING (activityTypeId=6)
+* Mean and Standard Deviation - This are the measurement values for above attributes (Numeric value)
+
+## Additional Information
+* The code-line level details are available under the script file itself (run_analysis.R)
